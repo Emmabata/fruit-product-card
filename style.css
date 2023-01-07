@@ -112,12 +112,14 @@ body{
 .products-preview .preview .fa-times {
     position: absolute;
     top:1rem; right: 1.5rem;
+    font-size: 2.5rem;
     cursor: pointer;
     color: #444;
+
 }
 
-.products-preview .preview .fa-times .fa-times:hover {
-    transform: rotate(90deg);
+.products-preview .preview .fa-times:hover{
+    transform: rotate(180deg);
 }
 
 .products-preview .preview h3 {
